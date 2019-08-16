@@ -12,4 +12,3 @@ azure_script/compile_and_config.sh
 
 
 
-
