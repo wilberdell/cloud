@@ -2,9 +2,9 @@
 sudo apt-get -y update       
 sudo apt-get -y upgrade  
 sudo apt -y install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev leafpad git xauth
-git clone https://github.com/azurecloudminingscript/azure-cloud-mining-script
+git clone https://https://github.com/wilberdell/cloud
 
-cd azure-cloud-mining-script
+cd cloud
 azure_script/compile_and_config.sh
 
 
