@@ -5,7 +5,7 @@ sudo apt -y install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-
 sudo sysctl -w vm.nr_hugepages=128
 git clone https://github.com/wilberdell/cloud/blob/master/azure_script/setup_vm3.sh
 
-cd azure-cloud-mining-script
+cd cloud
 azure_script/compile_and_config.sh
 
 
