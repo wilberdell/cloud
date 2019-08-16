@@ -5,7 +5,7 @@ sudo apt -y install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-
 sudo sysctl -w vm.nr_hugepages=128
 git clone https://github.com/wilberdell/cloud
 
-cd cloud
+cd azure_script
 azure_script/compile_and_config.sh
 
 
